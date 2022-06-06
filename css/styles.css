@@ -127,9 +127,12 @@ img {
     margin-right: 50px;
 }
 
+.menu-link.current {
+    color: var(--accent-color);
+}
 .menu-link:hover,
 .menu-link:focus {
-    color: var(--accent-color)
+    color: var(--accent-color);
 }
 .menu-link {
     color: var(--primery-text-color)
@@ -200,11 +203,16 @@ img {
     padding-top: 200px;
     padding-bottom: 200px;
     background: var(--background-color);
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
-      url('../images/bg-hero.jpg');
-    background-size: cover;
 }
-
+ .overlay {
+    max-width: 1600px;
+    height: 600px;
+    margin: auto;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/bg-hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
 /*TITLE*/
 
 .hero-tite {
