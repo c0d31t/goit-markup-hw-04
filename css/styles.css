@@ -207,7 +207,7 @@ img {
  .overlay {
     max-width: 1600px;
     height: 600px;
-    margin: auto;
+    margin: 0 auto;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/bg-hero.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -266,11 +266,6 @@ img {
 }
 
 /*======================SPECIALIZATION=====================*/
-
-.specialization {
-    display: flex;
-    justify-content: center;
-}
 
 .specialization-link {
     display: flex;
@@ -411,11 +406,6 @@ img {
     margin-right: 30px;
 }
 
-.our-clients {
-    display: flex;
-    justify-content: center;
-}
-
 .our-clients-icon {
     fill: var(--social-icon-color)
 }
@@ -509,22 +499,17 @@ img {
 }
 
 .footer-social {
-    display: flex;
-    align-items: baseline;
-    flex-direction: column;
     margin-left: 70px;
-    padding: 0;
     
 }
 .footer-social-text {
-    font-weight: 700;
+    
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--primary-background-color);
     margin-bottom: 20px;
-    margin-right: auto;
 }
 .footer-social-list {
     display: flex;
@@ -576,9 +561,6 @@ img {
 .filter-item {
     text-align: center;
 }
-.filter-button {
-    padding: 6px 22px;
-}
 
 .filter-button {
     font-weight: 500;
@@ -629,8 +611,8 @@ img {
 
 .portfolio-link {
     display: block;
-    cursor: pointer;
     background: var(--primary-background-color);
+    color: var(--primery-text-color);
 }
 .portfolio-link:hover,
 .portfolio-link:focus {
